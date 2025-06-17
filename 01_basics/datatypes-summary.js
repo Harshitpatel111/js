@@ -33,4 +33,16 @@ const myFunction = function(){
 }  //function 
 
 console.log(typeof anotherId); // to detect datatype
- 
+
+
+
+//========================================================
+
+//Stack (Primitive datatypes use stack)variable declared copy is given , Heap (non-primitive use this )gives reference/origin 
+// therefore when changed value in stack copy is changed whereas in heap the whole original value is changed as reference is given
+let myGender="Male"
+let anotherGneder=myGender
+anotherGender="Female"
+console.log(myGender);
+console.log(anotherGneder);
+
